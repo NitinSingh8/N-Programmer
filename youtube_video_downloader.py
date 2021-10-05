@@ -25,7 +25,7 @@ class Ytubedownload:
 
         self.root.geometry("%dx%d+0+0"%(width,height))
 
-        self.bg = ImageTk.PhotoImage(file="bg_image.jpg")
+        self.bg = ImageTk.PhotoImage(file="bg_image.jpg")  #if you are reading this code in github so download this image from this repository only or https://github.com/NitinSingh8/N-Programmer/blob/main/bg_image.jpg
         self.tk_bg = tk.Label(self.root, image=self.bg)
         self.tk_bg.place(x=700, y=0, relwidth=1, relheight=1)
 
